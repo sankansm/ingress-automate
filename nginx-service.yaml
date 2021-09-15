@@ -5,6 +5,7 @@ metadata:
   labels:
     run: nginx
   name: nginx
+  namespace: ingress
 spec:
   ports:
   - port: 80
